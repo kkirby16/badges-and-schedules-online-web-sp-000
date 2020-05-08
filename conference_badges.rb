@@ -25,5 +25,4 @@ def printer(attendees)
   assign_rooms(attendees).collect do |assigned_rooms|
     puts assigned_rooms
   end
-  
 end
