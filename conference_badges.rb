@@ -19,5 +19,7 @@ def assign_rooms(attendees)
 end
 
 def printer 
+  puts badge_maker(name)
+  puts assign_rooms(attendees)
   
 end
